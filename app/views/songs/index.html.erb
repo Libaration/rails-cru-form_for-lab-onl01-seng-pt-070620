@@ -1,0 +1,4 @@
+<% @songs.each do |song| %>
+  <hr> <p><%= "Song: #{song.name}" %> </p>
+  <%= "Artist: #{song.artist.name} Genre: #{song.genre.name}" %>
+<% end %>
